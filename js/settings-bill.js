@@ -1,11 +1,11 @@
 
-const billItemTypeRadioElement = document.querySelector(".billItemTypeRadio").value;
-const buttonElement = document.querySelector(".button-primary").value;
-const callTotalSettingsElement = document.querySelector(".callTotalSettings").value;
-const smsTotalSettingsElement = document.querySelector(".smsTotalSettings").value;
-const totalSettingsElement = document.querySelector(".totalSettings").value;
-const warningLevelSettingElement = document.querySelector(".u-full-width warningLevelSetting").value;
-const button2Element = document.querySelector(".button-primary updateSettings").value;
+const billItemTypeRadioElement = document.querySelector(".billItemTypeRadio");
+const buttonElement = document.querySelector(".button-primary");
+const callTotalSettingsElement = document.querySelector(".callTotalSettings");
+const smsTotalSettingsElement = document.querySelector(".smsTotalSettings");
+const totalSettingsElement = document.querySelector(".totalSettings");
+const warningLevelSettingElement = document.querySelector(".warningLevelSetting");
+const button2Element = document.querySelector(".updateSettings");
 
 if (checkedRadioBtn){
     var billItemType = checkedRadioBtn.value

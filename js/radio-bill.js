@@ -1,10 +1,10 @@
 
 
-const billItemTypeWithSettingsElement = document.querySelector(".billItemTypeWithSettings").value;
-const radioBillAddBtnElement = document.querySelector(".button-primary radioBillAddBtn").value;
-const callTotalTwoElement = document.querySelector(".callTotalTwo").value;
-const smsTotalTwoElement = document.querySelector(".smsTotalTwo").value;
-const totalTwoElement = document.querySelector(".totalTwo").value;
+const billItemTypeWithSettingsElement = document.querySelector(".billItemTypeRadio");
+const radioBillAddBtnElement = document.querySelector(" radioBillAddBtn");
+const callTotalTwoElement = document.querySelector(".callTotalTwo");
+const smsTotalTwoElement = document.querySelector(".smsTotalTwo");
+const totalTwoElement = document.querySelector(".totalTwo");
 
 var checkedRadioBtn = document.querySelector("input[name='billItemType']:checked");
 if (checkedRadioBtn){
