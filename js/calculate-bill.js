@@ -39,7 +39,7 @@ function totalPhoneBill(billString){
   const currentTotal=Number(roundedBillTotal);
 
    billTotalSpanElement.classList.remove("danger");
-   billTotalSpanElement.classList.remove("danger");
+   billTotalSpanElement.classList.remove("warning");
 
    if(currentTotal>=30){
    //make the total red
@@ -67,4 +67,5 @@ function totalPhoneBill(billString){
 }
 
 calculateBtn.addEventListener('click', calculateBtnClicked);
+
 
