@@ -1,6 +1,11 @@
 var callsTotal = 0;
 var smsTotal = 0;
 
+const billTypeTextElement = document.querySelector(".billTypeText").value;
+const callTotalOneElement = document.querySelector(".callTotalOne").value;
+const smsTotalOneElement = document.querySelector(".smsTotalOne").value;
+const totalOneElement = document.querySelector(".totalOne").value;
+const addToBillBtnElement = document.querySelector(".button-primary addToBillBtn").value;
 
 function textBillTotal(){
 
@@ -21,3 +26,4 @@ function textBillTotal(){
         totalCostElem.classList.add("warning");
     }
 }
+textTotalAddBtn.addEventListener('click', textBillTotal);
